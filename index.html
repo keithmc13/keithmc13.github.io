@@ -9,6 +9,30 @@
 		<title>Keith McNamara, Jr.</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<style>
+			.collapsible {
+			  background-color: #777;
+			  color: white;
+			  cursor: pointer;
+			  padding: 18px;
+			  width: 100%;
+			  border: none;
+			  text-align: left;
+			  outline: none;
+			  font-size: 15px;
+			}
+			
+			.active, .collapsible:hover {
+			  background-color: #555;
+			}
+			
+			.content {
+			  padding: 0 18px;
+			  display: none;
+			  overflow: hidden;
+			  background-color: #f1f1f1;
+			}
+		</style>
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -19,8 +43,8 @@
 					<li><a href="#top">Top</a></li>
 					<li><a href="#work">Work</a></li>
 					<li><a href="#workresearch">Work and Research</a></li>
-					<li><a href="#contact">Contact Me</a></li>
 					<li><a href="#projport">Project Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
 				</ul>
 			</nav>
 
@@ -61,30 +85,6 @@
 						 <iframe src = "KeithMcNamaraJr-Resume.pdf" width = "100%" height = "500">
 							Sorry your browser does not support inline frames.
 						 </iframe>
-				   
-						<!--
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-comments-o"></span>
-								<h3>Resume</h3>
-								<a href = "KeithMcNamaraJr-Resume.pdf">My resume.</a>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-camera-retro"></span>
-								<h3>CV</h3>
-								<a href = "KeithMcNamaraJr-CV.pdf">My CV.</a>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-thumbs-o-up"></span>
-								<h3>Passions</h3>
-								<a href = "#passions">Things that interest me.</p>
-							</section>
-						</div>
-						-->
 					</div>
 					<footer>
 						<a href="#workresearch" class="button large scrolly">Work/Research</a>
@@ -138,31 +138,65 @@
 			<div class="container">
 				<header>
 					<h3>Graduate Research and Studies</h3>
-					<p>
-					</p><br>
-					<h4>Virtual Lecture Using Head-Mounted Display</h4>
-					<p>The goal of this study was to assess the validity of using head-mounted displays in a learning environment compared to
-						conventional technologies (in this case a laptop). 
-					</p><br>
-					<h4>Effects of Language Consistency on Introductions to Programming</h4>
-					<p>This preliminary study explored the effects of one's native language on their ability to pick up programming languages. We studied two participant categories. English as a 
-						first language and Spanish as a first language but still able to speak English. This motivation here is that most programming languages are syntically based in English
-						but this could affect one's ability to understand and pick up the language when learning programming for the first time. All participants never programmed before and used Scratch, a
-						block-based programming language to complete a set of tasks. We found that participants who spoke Spanish as a first language took more time to take action when moving the blocks as compared to 
-						first language English speakers, which we believed could be a representation of a lack of understanding. However, those Spanish-speaking participants also seemed to explore the blocks more. 
-						The work here will continue with participants that do not speak English at all to assess their capacity to understand these English-based tools.
-					</p>
 					<br>
-					<h4>Mobile Phone Warning Designs</h4>
-					<p>
-						
-					</p>
+					<div class="collapsible">Virtual Lecture Using Head-Mounted Display</div>
+					<div class="content">
+						<p>The goal of this study was to assess the validity of using head-mounted displays in a learning environment compared to
+							conventional technologies (in this case a laptop). 
+						</p>
+					</div>
 					<br>
-					<h4>Human Perception of Deepfakes</h4>
-					<p>
 
+					<div class="collapsible">Effects of Language Consistency on Introductions to Programming</div>
+					<div class="content">
+						<p>This preliminary study explored the effects of one's native language on their ability to pick up programming languages. We studied two participant categories. English as a 
+							first language and Spanish as a first language but still able to speak English. This motivation here is that most programming languages are syntically based in English
+							but this could affect one's ability to understand and pick up the language when learning programming for the first time. All participants never programmed before and used Scratch, a
+							block-based programming language to complete a set of tasks. We found that participants who spoke Spanish as a first language took more time to take action when moving the blocks as compared to 
+							first language English speakers, which we believed could be a representation of a lack of understanding. However, those Spanish-speaking participants also seemed to explore the blocks more. 
+							The work here will continue with participants that do not speak English at all to assess their capacity to understand these English-based tools.
+						</p>
+					</div>
+					<br>
+
+					<div id= "spamcall" class="collapsible">Mobile Phone Warning Designs</div>
+					<div class="content">
+						<p>
+
+						</p>
+						<iframe src = "https://www.ndss-symposium.org/wp-content/uploads/2020/02/24286.pdf" width = "75%" height = "500">
+						 </iframe>
+					</div>
+					<br>
+
+					<div class="collapsible">Perception of Deepfakes and Manipulated Videos</div>
+					<div class="content">
+					<p>
+						TBA
 					</p>
+					<br>
+					
+					<div class="collapsible">TBA</div>
+					<div class="content">
+					<p>
+						TBA
+					</p>
+					</div>
+				</div>
+
 				</header>
+
+				<h3>Publications</h3>
+				<p>Sherman, I., Bowers, J., McNamara, K., Gilbert, J.E., Ruiz, J., & Traynor, P., (2020)
+					Are You Going to Answer That? Measuring User Responses to Anti-Robocall
+					Application Indicators, In Proceedings of the ISOC Network & Distributed Systems
+					Security Symposium (NDSS).
+				</p>
+				<p>
+					Pedro G. Feijoo-Garcia, Keith McNamara, Jr., and Jacob Stuart. 2019. Work inProgress: Native Language Consistency Effect on Learners’ Introduction to BlockBased Instructional Technologies. In Proceedings of the 20th Annual SIG
+					Conference on Information Technology Education (SIGITE ’19). Association for Computing Machinery, New York, NY, USA, 147. DOI:
+					https://doi.org/10.1145/3349266.3351368
+				</p>
 			</div>
 		
 		</article>
@@ -179,13 +213,18 @@
 						More specifically, my research involved knowledge transfer across different domains.
 						</p>
 						<br>
-						<h4>An Object-Oriented GridWorld</h4>
-						<p>The classic GridWorld domain, a navigation-based domain that works as a grid. The agent can move in the north, south, east, and west directions.
+						<div class="collapsible">An Object-Oriented GridWorld</div>
+						<div class="content">
+						<p>
+							The classic GridWorld domain, a navigation-based domain that works as a grid. The agent can move in the north, south, east, and west directions.
 						Along with another student, I helped to design an object-oriented approach to this domain in which every piece of the domain was an object. This would serve 
 						as a good training domain for incoming students to learn the basics domain design and agent learning.
 						</p>
+						</div>
+						
 						<br>
-						<h4>RockSample</h4>
+						<div class="collapsible">Partially Observable MDP - RockSample</div>
+						<div class="content">
 						<p>
 						Often, much is not known about a domain when in it, so the agent must learn as it exists. 
 						For example, someone in a dark room must find the lights and figure out what they are touching as they navigate. 
@@ -194,8 +233,11 @@
 						It involved an agent that traversed a rock domain and must collect rocks with certain value.
 						The qualities of the rocks were not known until the agent made contact with them.
 						</p>
+						</div>
+						
 						<br>
-						<h4>AMDPs</h4>
+						<div class="collapsible">Abstract Markov Decision Processes (AMDPs)</div>
+						<div class="content">
 						<p>
 						Abstract Markov Decision Processes, or AMDPs, are Markov Decision Processes with layers of knowledge abstracted out.
 						More simply, the agent does not consider certain information until it completes some prerequisite task.
@@ -203,6 +245,8 @@
 						MAXQ, and AMDP methods. I also tested increases in scale of the domain to determine how the learning rate was affected by the increases
 						in scale.
 						</p>
+						</div>
+						
 					</header>
 				</div>
 			
@@ -243,31 +287,65 @@
 			<article id="projport" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Past Projects</h2>
+						<h2>Projects</h2>
 					</header>
+
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="https://www.youtube.com/watch?v=AwB2R3r58hU">Miami Sea Rise </a></h3>
-								<p>Semester Project in Virtual Reality</p>
+								<iframe src="https://www.youtube.com/watch?v=AwB2R3r58hU"></iframe>
+								<h3><a href="https://sukanyya14.wixsite.com/miamisealevelrise">Miami Sea Rise VR Experience </a></h3>
+								<p>Semester Project in Virtual Reality on the effects of climate change</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<iframe src="https://www.youtube.com/watch?v=73QOq3_elNY"></iframe>
 								<h3><a href="https://www.youtube.com/watch?v=73QOq3_elNY">Augmented Reality in Education</a></h3>
 								<p>A study focusing on leveraging attention in AR</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Spam Call Warning Design</a></h3>
-								<p>A study to gauge user response and action toward various spam call warning designs</p>
+								<a href="#uf" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#uf">Spam Call Warning Design</a></h3>
+								<p>Evaluating user response to various spam call warning designs</p>
 							</article>
 						</div>
 					</div>
+					<br>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Ada </a></h3>
+								<p>A conversational agent to learn about an influential woman in CS. Click the DialogFlow prompt in the bottom right to try!</p>
+								<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+								<df-messenger
+								intent="WELCOME"
+								chat-title="Ada"
+								agent-id="e28db58c-c189-4ccc-89cd-862b25cb5ccc"
+								language-code="en"
+								></df-messenger>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">TBD</a></h3>
+								<p>TBD</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">TBD</a></h3>
+								<p>TBD</p>
+							</article>
+						</div>
+					</div>
+					<br>
+					
 				</div>
 				<!-- next row -->
 				<div class="container">
@@ -278,9 +356,13 @@
 		<article id="passions" class="wrapper style1">
 			<div class="container">
 				<header>
-					<h3>My academic interests...</h3>
-					<p>
-					</p>
+					<h2>Current Research Pursuits</h2>
+					<div>
+						<h3>Chatbot and Dialog System Capabilities</h3>
+						<h3>Explainable AI Methodology</h3>
+						<h3>Misinformation and Disinformation Prevention</h3>
+					</div>
+					
 				</header>
 			</div>
 		</article>
@@ -347,6 +429,23 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+				
+				for (i = 0; i < coll.length; i++) {
+				  coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+					  content.style.display = "none";
+					} else {
+					  content.style.display = "block";
+					}
+				  });
+				}
+				</script>
 
 	</body>
 </html>
