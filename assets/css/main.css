@@ -1642,6 +1642,10 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image headshot {
+			border-radius: 50%;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
